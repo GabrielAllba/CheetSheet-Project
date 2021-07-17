@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>       <!-- HEAD -->
+    <meta charset="UTF-8">
+    <title>CheetSheet Project</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body> <!-- BODY -->
+
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="ulist"><a href="#web-work">How Web works</a></li>
+                <li class="ulist"><a href="#front-end">Front End</a></li>
+                <li class="ulist"><a href="#Common">Common HTML TAG</a></li>
+                <li class="ulist"><a href="#Chrome-devtools">Chrome DevTools</a></li>
+                <li class="ulist" style="float:right"><a href="#About">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- MAIN -->
+    <main>
+        <!-- WEB WORK SECTION-->
+        <section class="web-work">
+            <article id="web-work">
+                <h1>How Web Works?</h1>
+                <p>How the web works provides a simplified view of what happens when you view a webpage in a web browser
+                    on your computer or phone. This theory is not essential to writing web code in the short term, but
+                    before long you'll really start to benefit from understanding what's happening in the background.
+                    <br><br>
+                    This is how it's actually work:
+                    <br>
+                    1. The browser goes to the DNS server and searching for the real adresses for the website
+                    <br>
+                    2. The browser send an HTTP Request to the server asking it if it can send a copy of the websites or not. This process send across internet connections using TCP/IP.   
+                    <br>
+                    3. Then the server responses to the client-side, if severs's accepted, it will send the packets to the browser.
+                    <br>
+                    4. The browsers assembles the data and show it to us.        
+                </p>
+
+          
+            </article>
+        </section>
+
+
+        <!-- FRONT END SECTION-->
+        <section class="front-end">
+            <article id="front-end">
+                <h1>Front-end</h1>
+                <h2>What is it?</h2>
+                <p>Front-end web development, also known as client-side development is the practice of producing HTML,
+                    CSS and JavaScript for a website or Web Application so that a user can see and interact with them
+                    directly. The challenge associated with front end development is that the tools and techniques used
+                    to create the front end of a website change constantly and so the developer needs to constantly be
+                    aware of how the field is developing.
+                </p>
+                <h2>technology that front-end used</h2>
+            </article>
+        </section>
+
+        <!-- COMMON HTML TAG SECTION-->
+        <section class="Common" id="Common">
+
+            <!-- HTML HEAD BODY ARTICLE-->
+            <article id="html-head-body">
+                <h1>Common HTML TAG</h1>
+                <h2>HTML, HEAD, BODY</h3>
+                <p>The &lt;html&gt; element, the root of an HTML document, should be added after the !DOCTYPE
+                        declaration. All content/structure for an HTML document should be contained between the opening
+                        and closing &lt;html&gt; tags.</p>
+                <p>Html &lt;head&gt; is a container for metadata of the webpage. HTML metadata is data about the
+                        HTML document. Metadata is not displayed. Metadata typically define the document title,
+                        character set, styles, scripts, and other meta information.</p>
+                <p>The &lt;body&gt; tag defines the document's body. The &lt;body&gt; element contains all the
+                        contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists,
+                        etc. There can only be one &lt;body&gt; element in an HTML document.</p>
+                <pre>
+                    <code id="this-code">
+    &lt;!DOCTYPE html&gt;
+
+    &lt;html&gt;
+
+    &lt;head&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+    &lt;/body&gt;
+
+    &lt;/html&gt;
+                    </code>
+                </pre>
+            </article>
+
+            <!-- NAVIGATION BAR ARTICLE -->
+            <article id="navigation-bar-article">
+                <h2>NAVIGATION BAR</h2>
+                <p id="having-easy">Having easy-to-use navigation is important for any web site. With CSS you can
+                    transform boring HTML menus into good-looking navigation bars. A navigation bar needs standard
+                    HTML as a base. In our examples we will build the navigation bar from a standard HTML list. A
+                    navigation bar is basically a list of links, so using the &lt;ul&gt; and &lt;li&gt; elements
+                    makes perfect sense:</p>
+                <ul>
+                    <li><a href="#Homes">Home</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li style="float: right"><a href="#Abouts">About</a></li>
+                </ul>
+                <h3>How to create it:</h3>
+
+                <!-- HTML NAV BAR SOURCE CODE-->
+                <pre>
+                    <code>
+<span style="color:rgb(160, 160, 170) ;">HTML CODE</span>
+
+&lt;nav <span style="color: orange;">class</span><span style="color: white;">=</span><span style="color: rgb(162, 212, 86);">"navbar"</span>&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a <span style="color: orange">href</span><span style="color: white">=</span><span style="color: rgb(162, 212, 86);">"#Homes"</span>&gt;<span style="color: white">Home</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a <span style="color: orange">href</span><span style="color: white">=</span><span style="color: rgb(162, 212, 86);">"#News"</span>&gt;<span style="color: white">News</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a <span style="color: orange">href</span><span style="color: white">=</span><span style="color: rgb(162, 212, 86);">"#Contact"</span>&gt;<span style="color: white">Contact</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;li <span style="color: orange">style<span style="color: white;">=</span><span style="color: white;">"float:right"</span><span style="color: #d15549;">&gt;&lt;a <span style="color: orange">href</span><span style="color: white">=</span><span style="color: rgb(162, 212, 86);">"#Abouts"</span>&gt;<span style="color: white">About</span>&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+                    </code>
+                </pre>
+
+
+                <!-- CSS NAV BAR SOURCE CODE-->
+                <pre>
+                    <code>
+<span style="color: rgb(160, 160, 170);">CSS CODE</span> 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float:left;
+
+}
+.navbar {
+    padding-top: 0px;
+    position: relative;
+    margin: 0 auto 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    
+}
+
+li a {
+    height: 30px;
+    
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia;
+}
+li a:hover {
+    background-color:#084042;
+}
+.example-navbar li a:active{
+    background-color: rgb(0, 116, 77);
+}
+                    </code>
+                </pre>
+            </article>
+
+            <!-- TABLE ARTICLE -->
+            <article id="table-article">
+                <h2>TABLE</h2>
+                <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+                <table id="table">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Gabriel</td>
+                        <td>Allba</td>
+                        <td>18</td>
+                        <td>Student</td>
+                        <td>Norway</td>
+                    </tr>
+                    <tr>
+                        <td>Cristiano</td>
+                        <td>Ronaldo</td>
+                        <td>30</td>
+                        <td>Football Player</td>
+                        <td>Portugal</td>
+                    </tr>
+                    <tr>
+                        <td>Lionel</td>
+                        <td>Messi</td>
+                        <td>30</td>
+                        <td>Football Player</td>
+                        <td>Argentina</td>
+                    </tr>
+                    <tr>
+                        <td>Jonathan</td>
+                        <td>Supratman</td>
+                        <td>30</td>
+                        <td>Officer</td>
+                        <td>Thailand</td>
+                    </tr>
+                    <tr>
+                        <td>Engkok</td>
+                        <td>Supradi</td>
+                        <td>35</td>
+                        <td>Content Writer</td>
+                        <td>Indonesia</td>
+                    </tr>
+                </table>
+                <h3>How to create it?</h3>
+                <pre>
+                    <code>
+&lt;table <span style="color: orange;">id</span><span style="color: white;">=</span><span style="color: rgb(162, 212, 86);">"table"</span>&gt;
+    &lt;tr&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;th&gt;Occupation&lt;/th&gt;
+        &lt;th&gt;Location&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Gabriel&lt;/td&gt;
+        &lt;td&gt;Allba&lt;/td&gt;
+        &lt;td&gt;18&lt;/td&gt;
+        &lt;td&gt;Student&lt;/td&gt;
+        &lt;td&gt;Norway&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Cristiano&lt;/td&gt;
+        &lt;td&gt;Ronaldo&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Football Player&lt;/td&gt;
+        &lt;td&gt;Portugal&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                    </code>
+                </pre>
+                <pre>
+                    <code>
+table {
+    width: 100%;
+}
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+table,th,td {
+    border: 1px solid rgb(223, 223, 235);
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+th,td {
+    padding: 20px;
+}
+td {
+    color: black;
+}
+#table th {
+    background-color: #008585;
+
+}
+
+#table tr:nth-child(even){
+    background-color: whitesmoke;
+
+}
+
+#table tr:nth-child(odd){
+    background-color: rgb(196, 196, 196);
+                        
+                        }
+                    </code>
+                </pre>
+            </article>
+        </section>
+
+
+        <!-- CHROME DEVTOOLS SECTION-->
+        <section>
+            <article id="Chrome-devtools">
+                <h1>Chrome DevTools</h1>
+                <p>Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser.</p>
+            </article>
+        </section>
+    </main>
+
+    
+    <!-- FOOTER -->
+    <footer id="About">
+        CodeCademy CheetSheet Project  Work. <br> <br>
+        &copy;Gabriel Allba 2021.
+
+    </footer>
+
+</body>
+
+</html>
