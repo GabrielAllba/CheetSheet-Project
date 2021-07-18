@@ -14,3 +14,10 @@ Codecademy, as part of the Full-stack Engineering Career Path training requires 
 - How The Web Works
 - What is Front-end
 - Common HTML Tags
+
+## Technologies
+- HTML 5
+- CSS 3
+
+## Setup
+Since the project requirement not including make a responsive website, just open the web browser or click [this](https://gabrielallba.github.io/CheetSheet-Project/).
