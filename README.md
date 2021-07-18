@@ -25,3 +25,6 @@ Since the project requirement not including make a responsive website, just open
 ## Sources
 - [Codecademy's Full-Stack Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
 - [w3schools](https://www.w3schools.com/howto/).
+
+## Launch
+See my [CheetSheet](https://gabrielallba.github.io/CheetSheet-Project/) here.
