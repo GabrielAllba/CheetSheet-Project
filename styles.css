@@ -21,18 +21,6 @@ section {
 
 
 }
-.column {
-    float: left;
-    width: 30%;
-    padding: 13px;
-
- 
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
 ul{
     list-style-type: none;
@@ -169,7 +157,24 @@ td {
 
 }
 
+.column {
+    float: left;
+    width: 30%;
+    padding: 13px;
 
+ 
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table
+  }
 
-
-
+article ul.new-nav {
+      background-color: antiquewhite;
+      background-size: cover;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
