@@ -21,3 +21,7 @@ Codecademy, as part of the Full-stack Engineering Career Path training requires 
 
 ## Setup
 Since the project requirement not including make a responsive website, just open the web browser or click [this](https://gabrielallba.github.io/CheetSheet-Project/).
+
+## Sources
+- [Codecademy's Full-Stack Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
+- [w3schools](https://www.w3schools.com/howto/).
