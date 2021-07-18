@@ -10,7 +10,7 @@ CheetSheet is a project based on CodeCademy Full-stack Engineering career path w
 - [Launch](#launch)
 
 ## General Informations
-Codecademy, as part of the Full-stack Engineering Career Path training requires it's students to make a summary of web-development fundamentals after following the web development fundamentals section. The topic of the summary are including: <br><br>
+Codecademy, as part of the Full-stack Engineering Career Path training requires it's students to make a summary of web-development fundamentals after following the web development fundamentals section. The topic of the summary are including: <br>
 - How The Web Works
 - What is Front-end
 - Common HTML Tags
