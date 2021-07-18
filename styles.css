@@ -21,6 +21,18 @@ section {
 
 
 }
+.column {
+    float: left;
+    width: 30%;
+    padding: 13px;
+
+ 
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 ul{
     list-style-type: none;
@@ -123,7 +135,7 @@ code {
 }
 
 
-table {
+table#table {
     width: 100%;
 }
 th {
