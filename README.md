@@ -1,8 +1,5 @@
 # **CheetSheet**
-CheetSheet is a project based on CodeCademy Full-stack Engineering career path where the project goal is to build a website which contains about summary of web-development fundamentals using HTML and CSS including: <br><br>
-- How The Web Works
-- What is Front-end
-- Common HTML Tags
+CheetSheet is a project based on CodeCademy Full-stack Engineering career path where the project goal is to build a website which contains about summary of web-development fundamentals using HTML and CSS.
 
 ## Table of Contents
 - [General Informations](#general-informations)
@@ -11,3 +8,9 @@ CheetSheet is a project based on CodeCademy Full-stack Engineering career path w
 - [Features](#features)
 - [Sources](#sources)
 - [Launch](#launch)
+
+## General Informations
+Codecademy, as part of the Full-stack Engineering Career Path training requires it's students to make a summary of web-development fundamentals after following the web development fundamentals section. The topic of the summary are including: <br><br>
+- How The Web Works
+- What is Front-end
+- Common HTML Tags
