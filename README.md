@@ -1,1 +1,2 @@
-# **CheetSheet Project**
+# **CheetSheet**
+CheetSheet is a project based on CodeCademy Full-stack Engineering career path where the project goal is to build a website which contains about summary of web-development fundamentals using HTML and CSS. 
