@@ -5,7 +5,6 @@ CheetSheet is a project based on CodeCademy Full-stack Engineering career path w
 - [General Informations](#general-informations)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Features](#features)
 - [Sources](#sources)
 - [Launch](#launch)
 
